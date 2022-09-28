@@ -21,3 +21,12 @@ elif [ "$s1" > "$s2" ]; then
 else
     echo "s2 is grater than s1"
 fi
+
+
+solve() {
+    if [ "$(( $1 + $2 + $3 ))" -eq 180 ]; then
+        echo Yes 
+    else
+        echo No 
+    fi
+}

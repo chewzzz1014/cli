@@ -23,10 +23,33 @@ else
 fi
 
 
-solve() {
+is_triangle() {
     if [ "$(( $1 + $2 + $3 ))" -eq 180 ]; then
         echo Yes 
     else
         echo No 
     fi
 }
+
+file_exists() {
+    # add your solution here
+    if [ -e $1 ]; then
+        if [ -s $1 ]; then
+            echo File exists and is not empty
+        else
+            echo File exists but is empty
+        fi 
+    else
+        echo File does not exist
+    fi
+}
+
+is_in_range() {
+    # add your solution here
+    if [ $1 -ge 500 -a $1 -le 1000 ]; then
+        echo "Good Job!"
+    else
+        echo "Revise the essay"
+    fi
+}
+

@@ -27,7 +27,7 @@ echo $MY_VARIABLE
 
 # alias:
 # alias name-of-alias='command'
-alias rm = "rm -i"
+alias rm = "rm -ibash"
 
 
 # watch all predefined and setted aliases

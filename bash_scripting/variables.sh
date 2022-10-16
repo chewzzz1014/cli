@@ -16,13 +16,22 @@ export variable
 # printenv | less
 
 
-# create var
+# create shell variable
 # don't need to use the $ sign when set the value
 #  no spaces around the = sign
 # name can consist of letters, numbers, and underscore characters, but the first symbol cannot be a number.
 MY_VARIABLE="some value"
 
 echo $MY_VARIABLE
+# export shell variable to environment variable
+export MY_VARIABLE
+
+# environment variable
+echo $PATH
+# append directory name to PATH at front
+PATH=dir:$PATH
+# append directory name to PATH at back
+PATH=$PATH:dir
 
 
 # alias:

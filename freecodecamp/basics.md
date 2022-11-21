@@ -71,3 +71,25 @@ then
   STATEMENTS
 fi
 ```
+
+```
+if [[ CONDITION ]]
+then
+  STATEMENTS
+else
+  STATEMENTS
+fi
+```
+
+-  There must be spaces on the inside of the brackets ([[ ... ]]) and around the operator (==).
+
+
+```
+ You can compare integers inside the brackets ([[ ... ]]) of your if with:
+ -eq (equal)
+ -ne (not equal)
+ -lt (less than)
+ -le (less than or equal)
+ -gt (greater than)
+ -ge (greater than or equal
+```

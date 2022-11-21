@@ -111,3 +111,20 @@ done
 # puase fopr 3 seconds
 sleep 3
 ```
+
+## Comment
+1. One line comment
+
+```
+# this is a comment
+```
+
+2. Multi-line comments
+
+```
+: '
+  A multiple
+  lines
+  comments
+'
+```

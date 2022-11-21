@@ -54,4 +54,20 @@ read VARIABLE_NAME
 echo -e "hello\n"
 ```
 
+## Command argument
+```
+# all arguments
+echo $*
 
+# nth argument: 1, 2, 3...
+$<number>
+```
+
+## Conditionals
+
+```
+if [[ CONDITION ]]
+then
+  STATEMENTS
+fi
+```

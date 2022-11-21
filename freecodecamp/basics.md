@@ -126,7 +126,9 @@ for (( i = 10; i > 0; i-- ))
 do
   echo $i
 done
+```
 
+```
 # while loop
 while [[ CONDITION ]]
 do
@@ -139,6 +141,13 @@ done
     echo $I
     (( I-- ))
   done
+```
+
+```
+until [[ CONDITION ]]
+do
+  STATEMENTS
+done
 ```
 
 ## Pause Command Execution
@@ -162,4 +171,28 @@ sleep 3
   lines
   comments
 '
+```
+
+
+## Array
+
+```
+ARR=("a" "b" "c")
+
+echo ${ARR[0]}
+# print whole array
+echo ${ARR[*]}
+echo ${ARR[@]}
+```
+
+
+## Function
+
+```
+FUNCTION_NAME() {
+  STATEMENTS
+}
+
+# function call
+FUNCTION_NAME
 ```

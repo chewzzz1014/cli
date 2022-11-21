@@ -91,6 +91,16 @@ else
 fi
 ```
 
+```
+if (( CONDITION ))
+then
+  STATEMENTS
+elif [[ CONDITION ]]
+then
+  STATEMENTS
+fi
+```
+
 -  There must be spaces on the inside of the brackets ([[ ... ]]) and around the operator (==).
 
 

@@ -105,3 +105,9 @@ do
   echo $i
 done
 ```
+
+## Pause Command Execution
+```
+# puase fopr 3 seconds
+sleep 3
+```

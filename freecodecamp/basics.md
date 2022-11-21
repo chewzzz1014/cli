@@ -41,6 +41,16 @@ $VARIABLE_NAME
 echo #QUESTION1
 ```
 
+## Sytem Variables
+
+```
+# print all system variables
+printenv
+
+# View all variables in the shell ( -p stands for print)
+declare -p
+
+```
 
 ## Read Input
 ```
@@ -101,6 +111,7 @@ fi
 
 ```
 # for loop
+# The double parenthesis performed the calculation, changing the value of I 
 for (( i = 10; i > 0; i-- ))
 do
   echo $i

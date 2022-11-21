@@ -111,7 +111,7 @@ fi
 
 ```
 # for loop
-# The double parenthesis performed the calculation, changing the value of I 
+# The double parenthesis performed the calculation, changing the value of I.  It makes the calculation in place and provides no output
 for (( i = 10; i > 0; i-- ))
 do
   echo $i

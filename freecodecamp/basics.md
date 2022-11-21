@@ -100,10 +100,24 @@ fi
 ## Iteration
 
 ```
+# for loop
 for (( i = 10; i > 0; i-- ))
 do
   echo $i
 done
+
+# while loop
+while [[ CONDITION ]]
+do
+  STATEMENTS
+done
+
+# example
+  while [[ $I -ge 0 ]]
+  do 
+    echo $I
+    (( I-- ))
+  done
 ```
 
 ## Pause Command Execution

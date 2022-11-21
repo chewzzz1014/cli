@@ -114,6 +114,9 @@ fi
  -ge (greater than or equal
  &&
  ||
+ ==
+ !=
+ =~ (Match the pattern)
 ```
 
 

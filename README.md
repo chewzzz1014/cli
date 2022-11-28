@@ -1,4 +1,5 @@
-# Command Line Interface
+# Overview
+Learning linux command and bash.﻿
 
 Learning Resources:
 

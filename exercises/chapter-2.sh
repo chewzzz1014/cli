@@ -23,18 +23,19 @@ cp file1.txt file2.txt ../
 mv practice/file1.txt practice/file2.txt ./
 
 # 9. Copy files with specific extensions to another directory.
-cp *.txt .
+cp *.txt practice/
 
 # 10. Move files with specific extensions to another directory.
-mv *.txt .
+mv *.txt practice/
 
 # 11. Rename multiple files in the same directory.
 mv *.txt test.txt 
 
 # 12. Copy a file to a directory using an absolute path.
-
+cp practice/file1.txt /root/tmp/
 
 # 13. Move a file to a directory using an absolute path.
+mv practice/file1.txt /root/tmp/
 
 # 14. Copy a directory to another directory using a relative path.
 cp practice/ .
@@ -55,18 +56,23 @@ cp practice/ /
 mv practice/ /
 
 # 20. Rename a file to a new name with spaces in it.
-
+mv practice/file1.txt practice/'file 1.txt'
 
 # 21. Create a new file named “permission_file.txt” and change its permissions to read-only for the owner, and no access for others.
-
+touch permission_file.txt 
+chmod u=r permission_file.txt 
+chmod o=--- permission_file.txt
 
 # 22. Create a new directory named “permission_dir” and change its permissions to allow the owner to read, write, and execute, and no access for others.
-
+mkdir permission_dir 
+chmod u=rwx permission_dir/
+chmod o=r-w-x- permission_dir/
 
 # 23. Add write permission to the group owner of “permission_file.txt”.
-
+chmod u+w permission_file.txt
 
 # 24. Add execute permission to others for “permission_dir”.
-
+chmod o+x permission_dir
 
 # 25. Change the owner of “permission_file.txt” to another user and verify the change.
+chown chewzzz permission_file.txt 
